@@ -5,29 +5,29 @@
 body {
     background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 100vh;
     margin: 0;
     padding: 0;
-
 }
 
 .container {
-    height: 720px;
     width: 720px;
-    margin-left:auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 72px;
 }
 
 .options {
-    background-color: rgb(8, 135, 246);
-    height: 720px;
+    background-color: rgba(116, 122, 122, 0.416);
+    border-radius: 10px;
     width: 240px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    margin-right: 20px;
+    height: 99%;
+    margin-left: 12px;
 }
