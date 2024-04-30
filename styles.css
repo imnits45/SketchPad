@@ -1,7 +1,33 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
-* {
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
     padding: 0;
+
+}
+
+.container {
+    height: 720px;
+    width: 720px;
+    margin-left:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    background-color: rgb(8, 135, 246);
+    height: 720px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
 }
